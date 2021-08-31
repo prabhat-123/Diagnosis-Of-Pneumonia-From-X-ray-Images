@@ -15,7 +15,7 @@ This project will be an end to end solution where the user/radiologist will uplo
 
 **Distribution Of Each Class In the Overall Dataset**
 
-![](output_images/class_representation.png)
+![](output_images/class_representaion.png)
 
 **Training Vs Validation Accuracy**
 
