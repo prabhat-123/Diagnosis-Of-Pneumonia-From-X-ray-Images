@@ -7,3 +7,11 @@ Thus, it is possible to use Deep Learning algorithms to detect the disease from 
 Automated applications can be created to help support radiologists.
 So,this project aims to detect pneumonia cases from the x-ray images.
 This project will be an end to end solution where the user/radiologist will upload the chest x-ray image to the app and the app would return the predictions denoting whether the patient has pneumonia or not.
+
+**Training Vs Validation Accuracy**
+
+![](output_images/training_vs_validation_accuracy_pneumonia_detection.jpg)
+
+**Training Vs Validation Loss**
+
+![](output_images/training_vs_validation_loss_pneumonia_detection.jpg)
