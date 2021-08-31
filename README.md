@@ -8,6 +8,15 @@ Automated applications can be created to help support radiologists.
 So,this project aims to detect pneumonia cases from the x-ray images.
 This project will be an end to end solution where the user/radiologist will upload the chest x-ray image to the app and the app would return the predictions denoting whether the patient has pneumonia or not.
 
+**Train Test Split Ratio**
+
+![](output_images/split_representation.png)
+
+
+**Distribution Of Each Class In the Overall Dataset**
+
+![](output_images/class_representation.png)
+
 **Training Vs Validation Accuracy**
 
 ![](output_images/training_vs_validation_accuracy_pneumonia_detection.jpg)
