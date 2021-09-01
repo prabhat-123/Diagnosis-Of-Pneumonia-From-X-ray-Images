@@ -14,8 +14,9 @@ app = Flask(__name__)
 
 root_dir = os.getcwd()
 model_dir_path = os.path.join(root_dir, 'models')
-config_file_name = 'pneumonia_detection_xception_model.json'
-weights_file_name = 'pneumonia_detection_model_01-0.835000.h5'
+config_file_name = 'pneumonia_detection_inception_model.json'
+weights_file_name = 'pneumonia_detection_inception_model_03-0.845000.h5'
+
 xray_result = ['NORMAL', 'PNEUMONIA']
 
 json_file = open(os.path.join(model_dir_path, config_file_name),'r')
@@ -28,7 +29,7 @@ model.load_weights(os.path.join(model_dir_path, weights_file_name))
 
 def model_predict(model, image_path):
 
-    img = image.load_img(image_path,target_size=(300,300))
+    img = image.load_img(image_path,target_size=(400,400))
     x = image.img_to_array(img)
     x = np.expand_dims(x,axis=0)
     x = x/255.0
