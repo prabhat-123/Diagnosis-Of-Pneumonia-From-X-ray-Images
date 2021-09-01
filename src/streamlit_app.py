@@ -11,8 +11,8 @@ from tensorflow.keras.models import model_from_json
 
 xray_types = ['NORMAL', 'PNEUMONIA']
 predictor = Predictor(model_dir_name = 'models')
-loaded_model_json = predictor.load_config(config_file_name = 'pneumonia_detection_xception_model.json')
-model = predictor.load_weights(weights_file_name = 'pneumonia_detection_model_01-0.835000.h5', loaded_model_json = loaded_model_json)
+loaded_model_json = predictor.load_config(config_file_name = 'pneumonia_detection_inception_model_03-0.845000.h5')
+model = predictor.load_weights(weights_file_name = 'pneumonia_detection_inception_model_03-0.845000.h5', loaded_model_json = loaded_model_json)
 st.set_option('deprecation.showfileUploaderEncoding', False)
 st.title("Chest Xray Image Classification Example")
 st.header("Identifying Pneumonia Cases From Chest Xrays")
@@ -27,7 +27,7 @@ if uploaded_file is not None:
     st.write("")
     st.write("Just a second...")
     label = predictor.predict(model, file_path)
-    if label == 0:
+    if label > 0.5:
         st.write("The chest xray of a patient has a Pneumonia.")
     else:
         st.write("The chest xray of a patient is Normal")
