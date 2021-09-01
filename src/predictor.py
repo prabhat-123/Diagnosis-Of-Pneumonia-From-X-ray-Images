@@ -40,7 +40,7 @@ class Predictor():
 
         self.model = model
         self.img_path = img_path
-        img = image.load_img(img_path, target_size=(300,300))
+        img = image.load_img(img_path, target_size=(400,400))
         img_arr = image.img_to_array(img)
         normalized_img_arr = img_arr/255.
         test_img = np.expand_dims(normalized_img_arr, axis = 0)
