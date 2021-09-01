@@ -24,3 +24,7 @@ This project will be an end to end solution where the user/radiologist will uplo
 **Training Vs Validation Loss**
 
 ![](output_images/training_vs_validation_loss_pneumonia_detection.jpg)
+
+**Overall System Workflow**
+
+![](output_images/rsz_high_level_diagram.png)
