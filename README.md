@@ -8,7 +8,7 @@ Automated applications can be created to help support radiologists.
 So,this project aims to detect pneumonia cases from the x-ray images.
 This project will be an end to end solution where the user/radiologist will upload the chest x-ray image to the app and the app would return the predictions denoting whether the patient has pneumonia or not.
 
-**Problem Statement**
+**1) Problem Statement**
 
 <li>According to the latest WHO data published in 2018 Influenza and Pneumonia Deaths in Nepal reached 9,712 or 5.83% of total deaths.</li>
 <li>Chest pain, Difficulty in breathing, Respiratory problems - Symptoms of Pneumonia</li>
@@ -16,13 +16,13 @@ This project will be an end to end solution where the user/radiologist will uplo
 
 <br>
 
-**Aims & Objectives**
+**2) Aims & Objectives**
 <li> So, the objective of the project is to create a deep learning algorithm to identify pneumonia patients by interpreting chest x-ray images.</li>
 <li>This project will be an end to end solution where the user/radiologist will upload the chest x-ray image to the app and the app would return the predictions denoting whether the patient has pneumonia or not.</li>
 
 <br>
 
-**Data**
+**3) Data Exploration**
 <li>There are a total of 5856 image datasets.</li>
 <li>Anterior-posterior Chest X-ray images were selected from the patients of one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou.</li>
 <li>The overall image datasets are categorized into two main classes : 'NORMAL' and 'PNEUMONIA'.</li>
@@ -41,6 +41,15 @@ This project will be an end to end solution where the user/radiologist will uplo
 ![](output_images/class_representaion.png)
 
 <br>
+
+**2. Data Preprocessing : Image Processing**
+
+*****Image Resizing*****
+  <li>The image is resized into (400, 400) pixels.</li>
+*****Scaling pixel values*****
+  <li>The pixel values of an image is scaled by dividing the each pixel position by 255.</li>
+
+
 
 **Training Vs Validation Accuracy**
 
