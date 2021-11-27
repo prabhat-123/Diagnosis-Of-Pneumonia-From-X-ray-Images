@@ -10,9 +10,9 @@ This project will be an end to end solution where the user/radiologist will uplo
 
 **Problem Statement**
 
-***<li>According to the latest WHO data published in 2018 Influenza and Pneumonia Deaths in Nepal reached 9,712 or 5.83% of total deaths.</li>***
-Chest pain, Difficulty in breathing, Respiratory problems - Symptoms
-All these respiratory symptoms can be identified by the radiologist by observing the chest x-ray images of the patient.
+*****<li>According to the latest WHO data published in 2018 Influenza and Pneumonia Deaths in Nepal reached 9,712 or 5.83% of total deaths.</li>*****
+*****<li>Chest pain, Difficulty in breathing, Respiratory problems - Symptoms of Pneumonia</li>*****
+*****<li>All these respiratory symptoms can be identified by the radiologist by observing the chest x-ray images of the patient.</li>*****
 
 **Train Test Split Ratio**
 
