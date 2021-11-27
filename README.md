@@ -74,7 +74,6 @@ This project will be an end to end solution where the user/radiologist will uplo
 
 ![](output_images/training_vs_validation_loss_pneumonia_detection.jpg)
 
-**Accuracy And Metrices**
 
 
 <br>
