@@ -42,19 +42,33 @@ This project will be an end to end solution where the user/radiologist will uplo
 
 <br>
 
-**2. Data Preprocessing : Image Processing**
+**4. Data Preprocessing : Image Processing**
 
 *****a)Image Resizing*****
   <li>The image is resized into (400, 400) pixels.</li>
-  
+
+<br>
+
 *****b)Scaling pixel values*****
   <li>The pixel values of an image is scaled by dividing the each pixel position by 255.</li>
 
+<br>
 
+**5. Modelling**
+
+<li>Selecting the pretrained model : Inception V3 (Google Net)</li>
+<li>Using Transfer Learning technique to train the network faster.</li>
+<li>Selecting Hyper Parameters (Learning Rate, Batch Size)</li>
+<li>Loss Functions (Weighted Binary Crossentropy)</li>
+<li>Optimizer (Adam)</li>
+
+<br>
 
 **Training Vs Validation Accuracy**
 
 ![](output_images/training_vs_validation_accuracy_pneumonia_detection.jpg)
+
+<br>
 
 **Training Vs Validation Loss**
 
