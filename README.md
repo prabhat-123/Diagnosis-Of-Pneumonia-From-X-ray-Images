@@ -28,9 +28,8 @@ This project will be an end to end solution where the user/radiologist will uplo
 <li>The overall image datasets are categorized into two main classes : 'NORMAL' and 'PNEUMONIA'.</li>
 <li>The overall dataset is divided into three different splits : training, testing and validation.</li>
 
-
-
 <br>
+
 **Train Test Split Ratio**
 
 ![](output_images/split_representation.png)
