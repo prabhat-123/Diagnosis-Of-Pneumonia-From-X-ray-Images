@@ -44,9 +44,10 @@ This project will be an end to end solution where the user/radiologist will uplo
 
 **2. Data Preprocessing : Image Processing**
 
-*****Image Resizing*****
+*****a)Image Resizing*****
   <li>The image is resized into (400, 400) pixels.</li>
-*****Scaling pixel values*****
+  
+*****b)Scaling pixel values*****
   <li>The pixel values of an image is scaled by dividing the each pixel position by 255.</li>
 
 
