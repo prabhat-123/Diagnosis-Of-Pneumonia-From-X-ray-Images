@@ -14,9 +14,11 @@ This project will be an end to end solution where the user/radiologist will uplo
 <li>Chest pain, Difficulty in breathing, Respiratory problems - Symptoms of Pneumonia</li>
 <li>All these respiratory symptoms can be identified by the radiologist by observing the chest x-ray images of the patient.</li>
 
+
 **Aims & Objectives**
 <li> So, the objective of the project is to create a deep learning algorithm to identify pneumonia patients by interpreting chest x-ray images.</li>
 <li>This project will be an end to end solution where the user/radiologist will upload the chest x-ray image to the app and the app would return the predictions denoting whether the patient has pneumonia or not.</li>
+
 
 **Data**
 <li>There are a total of 5856 image datasets.</li>
